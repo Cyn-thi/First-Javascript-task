@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@200;300;500&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <div id="beginning">
+    <div class="col-lg-12 col-md-12 col-sm-12 mt-3 best">
+        <div class="middle ">
+          <div class="container">
+            <div class="post-header mb-3">
+              <img src="/img/profile icon.jpg" alt="" class="img-fluid me-2" style="height: 10vh;">
+            </div>
+            <form id="post-form">
+              <div class="mb-3 text-light fw-bold fs-4">
+                <label for="exampleFormControlInput1" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" style="width: 50%;">
+              </div>
+              <div class="mb-3 text-light fw-bold fs-4">
+                <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+                <textarea class="form-control" id="body" rows="5" placeholder="What's on your mind" style="width: 50%;"></textarea>
+              </div>
+              <button class="btn btn-dark ms-2 mt-2" type="submit">Create Post</button>
+            </form>
+            <div class="row mt-5" id="post-holder">
+              <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h1>BABIES</h1>
+                    <h6 id="post-title"> Young babies need consistent responsive care.</h6>
+                    <p id="post-body">Babies communicate by responding to the slightest movement and sound, even smell of the caregiver. When the caregiver responds back, the interaction between the caregiver and the baby becomes like a dance. This special relationship may be established during feeding from the very first days</p>
+                    <div class="d-flex">
+                      <button class="btn btn-primary">View</button>
+                      <button class="btn btn-danger ms-3">Update</button>
+                      <button class="btn btn-danger ms-3">Delete</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <script src="/js/app.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
