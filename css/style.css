@@ -43,8 +43,3 @@ body {
     }
 }
 
-@media (max-width: 769px) {
-    .form-control {
-        width: 70%!important;
-    }
-}
