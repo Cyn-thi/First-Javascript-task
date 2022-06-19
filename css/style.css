@@ -36,3 +36,9 @@ body {
     background-position: center;
     height: 95vh;
 }
+
+@media (max-width: 426px) {
+    .form-control {
+        width: 100%!important;
+    }
+}
